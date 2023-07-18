@@ -1,0 +1,13 @@
+$font-size:40px;
+
+.test{
+    font-size:$font-size
+    
+}
+div{
+    &>p{
+        height: 100px;
+        width: 100px;
+        background-color: aquamarine;
+    }
+}
